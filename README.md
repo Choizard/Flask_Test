@@ -7,3 +7,7 @@
 
 template 폴더 안에 있는 fortune.html 렌더링이 가능한지 확인
 
+@app.route('/fortune') 요청명
+
+이후 / 요청으로 home.html로 되돌아가기 테스트
+
