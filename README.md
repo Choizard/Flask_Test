@@ -1,13 +1,19 @@
 # Flask_Test
 
 플라스크 프로젝트 생성 및 간단 테스트
-vscode 내의 wsl 터미널 사용
+
+### WSL (Ubuntu) 터미널 사용
 
 ### WSGI를 이용하라고 경고문 뜸
-export FLASK_APP=test.py (app이라는 프로젝트 내의 test.py)
-flask run --host=0.0.0.0 
+* sudo pip install Flask
+* export FLASK_APP=test.py (app이라는 프로젝트 내의 test.py)
+* flask run --host=0.0.0.0 
 
-### Gunicorn 설치 후 바인딩
+### Gunicorn 설치
+* sudo apt-get pip
+* sudo apt install gunicorn
+
+### Gunicorn 설치 후 바인딩 (app 경로로 이동 후)
 gunicorn app:test --bind 0.0.0.0:8000
 
 ## 기본 페이지 이동 테스트
