@@ -1,5 +1,10 @@
 # Flask_Test
+
 플라스크 프로젝트 생성 및 간단 테스트
+vscode 내의 wsl 터미널 사용
+
+export FLASK_APP=test.py (app이라는 프로젝트 내의 test.py)
+flask run --host=0.0.0.0 
 
 ## 기본 페이지 이동 테스트
 
